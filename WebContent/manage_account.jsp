@@ -120,9 +120,7 @@ SELECT * from File WHERE email= '<s:property value="#session.email" />' ;
 							<script>
 								function Download(fileName, type){
 									AWS.config.update({
-									    accessKeyId: "AKIAJECRDECGP3WEEHHQ",
-									    secretAccessKey: "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",
-									    "region": "us-west-2"
+									    // AWS Params
 									});
 									var s3 = new AWS.S3();
 									var params;
